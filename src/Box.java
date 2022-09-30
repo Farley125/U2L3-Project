@@ -34,7 +34,10 @@ public class Box
             return false;
         }
     }
-
+    public void print()
+    {
+        System.out.println("dog");
+    }
     public void printDimensions()
     {
         System.out.println("L = " + length + ", W = " + width + ", H = " + height);

@@ -88,15 +88,13 @@ public class U2L3Runner {
 
         boolean student1greater = (student1avg > student2avg);
         System.out.println(student1greater);
-        boolean student2greater = (student1avg < student2avg); */
+        boolean student2greater = (student1avg < student2avg);
 
-        System.out.println(student2greater);
-        System.out.print("Welcome to ChatBot!  What would you like to do? (f for a fact, w for weather, and h for a hug");
+        System.out.println(student2greater); */
+
+        System.out.println("Welcome to ChatBot!  What would you like to do? (f for a fact, w for weather, and h for a hug");
         String input = s.nextLine();
-        if (input = f)
-        {
-
-        }
-
+        System.out.println("Input is " + input);
+        ChatBot a = new ChatBot(input);
     }
 }
