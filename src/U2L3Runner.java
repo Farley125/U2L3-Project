@@ -1,4 +1,6 @@
+import java.util.Scanner;
 public class U2L3Runner {
+    static Scanner s = new Scanner(System.in);
     public static void main(String[] args) {
         /*double length, width, height;
 
@@ -54,7 +56,7 @@ public class U2L3Runner {
         game.increaseScore(3);
         System.out.println("Players: " + game.getPlayers());
         System.out.println("Score: " + game.getScore());
-        System.out.println("Avg score per player: " + game.averageScorePerPlayer()); */
+        System.out.println("Avg score per player: " + game.averageScorePerPlayer());
         Student student1 = new Student("Charles", "Smith", 2021);
         student1.addTestScore(85.5);
         student1.printStudentInfo();
@@ -86,8 +88,15 @@ public class U2L3Runner {
 
         boolean student1greater = (student1avg > student2avg);
         System.out.println(student1greater);
-        boolean student2greater = (student1avg < student2avg);
+        boolean student2greater = (student1avg < student2avg); */
+
         System.out.println(student2greater);
+        System.out.print("Welcome to ChatBot!  What would you like to do? (f for a fact, w for weather, and h for a hug");
+        String input = s.nextLine();
+        if (input = f)
+        {
+
+        }
 
     }
 }
